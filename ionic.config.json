@@ -1,0 +1,7 @@
+{
+  "name": "StellarSport",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
