@@ -1,3 +1,22 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <!-- start: Main menu sidebar -->
+  <ion-menu side="start" menuId="main-menu" contentId="main">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item routerLink="/competition">รายการการแข่งขัน</ion-item>
+          <ion-item routerLink="/score-board">ผลการแข่งขัน</ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <!-- end: Main menu sidebar -->
+
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
